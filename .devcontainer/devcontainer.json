@@ -2,15 +2,7 @@
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.245.2/containers/python-3
 {
 	"name": "linear-optimization-w-python",
-	"image": "csprock/python-opt",
-	//"build": {
-		//"dockerfile": "dockerfile",
-		//"context": ".."
-		// "args": { 
-		// 	"PYTHON_VERSION": "3.10.7-slim-bullseye"
-		// }
-	//},
-
+	"image": "csprock/dockerfiles:python-opt-latest",
 	// Configure tool-specific properties.
 	"customizations": {
 		// Configure properties specific to VS Code.
